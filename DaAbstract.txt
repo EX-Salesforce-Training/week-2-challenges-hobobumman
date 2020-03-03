@@ -1,0 +1,12 @@
+public abstract class DaAbstract{
+    
+    integer num;
+    public virtual integer virtualReality(integer i){
+        return num;
+        
+    }
+    
+    abstract integer abstractReality(integer i);
+        
+       
+}

@@ -1,0 +1,19 @@
+public class DFawlt extends DaAbstract {
+	//Constructor chaining
+    public DFawlt(){
+        this(1);
+    }
+    public DFawlt(integer i){
+        This(i);
+            }
+    
+    //override the virtual method from DaAbstract class
+    public override integer virtualReality(integer i){
+     	return i;   
+    }
+    
+    //Implement the abstract method from DaAbstract class
+    public integer abstractReality(integer i){
+       return i;
+    }
+}
